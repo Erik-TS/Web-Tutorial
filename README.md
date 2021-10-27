@@ -1,3 +1,3 @@
 # Web-Tutorial
 
-<p>Pequeno site para explicar o básico do funcionamento de Websites.</p>
+<p>Pequeno site para explicar o funcionamento de Websites.</p>
