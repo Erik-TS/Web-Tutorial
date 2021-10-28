@@ -49,31 +49,48 @@
         </p>
     </div>
 
-    <div id="html-desc-scroll" class="html-desc div-docs">
-        <img src="images/html 5 logo.png" alt="HTML 5 logo">
-        <p>
-            O HTML(Linguagem de Marcação de Hipertexto) é um documento de hipertexto responsável pela estruturação do site. 
-            Ele define os elementos presentes na página como imagens, textos, audios, vídeos, menus e etc. Além disso ele
-            também fornece algumas informações para o navegador e mecanismos de busca.
-        </p>
-    </div>
+    <div id="carouselWebDocs" class="carousel slide" data-bs-ride="carousel" pause="hover">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="html-desc div-docs">
+                    <img src="images/html 5 logo.png" alt="HTML 5 logo">
+                    <p>
+                        O HTML(Linguagem de Marcação de Hipertexto) é um documento de hipertexto responsável pela estruturação do site. 
+                        Ele define os elementos presentes na página como imagens, textos, audios, vídeos, menus e etc. Além disso ele
+                        também fornece algumas informações para o navegador e mecanismos de busca.
+                    </p>
+                </div>
 
-    <div id="css-desc-scroll" class="css-desc div-docs">
-        <img src="images/css 3 logo.png" alt="CSS 3 logo">
-        <p>
-            O CSS(Folha de Estilo em Cascata) é o responsável pelo estilo da página. Ele altera as propriedades visuais
-            dos elementos do HTML como: cores, fontes, margens, posição, background.
-        </p>
-    </div>
-
-    <div id="js-desc-scroll" class="js-desc div-docs">
-        <img src="images/js logo.png" alt="Javascript logo">
-        <p>
-            O Javascript é o responsável pela lógica de programação. 
-            Ele é uma linguagem de programação baseada em scripts executada de forma nativa nos navegadores. 
-            Dentre suas funções temos alterações de elementos em páginas dinâmicas.
-        </p>
-    </div>
+            </div>
+            <div class="carousel-item">
+                <div class="css-desc div-docs">
+                    <img src="images/css 3 logo.png" alt="CSS 3 logo">
+                    <p>
+                        O CSS(Folha de Estilo em Cascata) é o responsável pelo estilo da página. Ele altera as propriedades visuais
+                        dos elementos do HTML como: cores, fontes, margens, posição, background.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="js-desc div-docs">
+                    <img src="images/js logo.png" alt="Javascript logo">
+                    <p>
+                        O Javascript é o responsável pela lógica de programação. 
+                        Ele é uma linguagem de programação baseada em scripts executada de forma nativa nos navegadores. 
+                        Dentre suas funções temos alterações de elementos em páginas dinâmicas.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselWebDocs" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselWebDocs" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

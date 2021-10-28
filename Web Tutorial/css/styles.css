@@ -19,8 +19,7 @@ nav{
 
 .div-docs{
     display: inline-block;
-    width: 100%;
-    padding: 50px 0;
+    padding: 5% 10%;
     font-size: large;
     font-family: 'Roboto', sans-serif;
 }
@@ -40,7 +39,7 @@ nav{
 }
 
 .js-desc{
-    background-color: #FFFD95;
+    background-color: #FFE699;
 }
 
 .web-desc h1{
